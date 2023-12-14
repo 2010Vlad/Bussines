@@ -1,1 +1,149 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(118, 250, 206);
+}
 
+header {
+    background-color: navy;
+    padding: 20px;
+    width: 1100px;
+}
+
+header a {
+    color: black;
+    background-color: rgb(0, 255, 64);
+    transition:1s background-color linear ;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+}
+
+header img {
+    width: 200px;
+    height: 60px;
+}
+
+.sp_button {
+    background-color: #2adede;
+    border: 1px solid #2adede;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    border-bottom: 2px solid navy;
+    padding-bottom: 3px;
+    width: 1000px;
+
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+}
+
+article {
+    font-size: 20px;
+    padding: 20px;
+    width: 800px;
+    margin: 20px;
+    border: 1px solid navy;
+    border-radius: 15px;
+    text-align: center;
+}
+
+article img {
+    height: 150px;
+    width: 200px;
+}
+
+.page {
+    width: 80px;
+    position: relative;
+    bottom: 100px;
+}
+
+.nb_news {
+    background-color: navy;
+    color: white;
+}
+
+footer {
+    background-color: #8fddf2;
+    padding: 10px;
+    width: 1100px;
+}
+
+footer p {
+    background-color: white;
+    padding: 5px;
+}
+.article:hover{
+    box-shadow:5px 5px 5px 0 navy  ;
+}
+
+
+
+.link-nave:hover{
+    background-color: chartreuse;
+    transition:1s background-color linear ;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+   
+}
+
+.link-nav:hover{
+    background-color: rgb(255, 0, 0);
+    transition:1s background-color linear ;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+   
+}
+.link-nava:hover{
+    background-color: rgb(255, 0, 230);
+    transition:1s background-color linear ;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+   
+}
+.link-navo:hover{
+    background-color: rgb(255, 255, 255);
+    transition:1s background-color linear ;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+   
+}
+.link-navy:hover{
+    background-color: rgb(246, 255, 0);
+    transition:1s background-color linear ;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+}
+
+
+p {
+    size: 100px;
+
+}
